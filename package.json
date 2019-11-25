@@ -2,7 +2,7 @@
   "author": "Raghav Moka <ravitej5226@gmail.com>",
   "name": "babel7-istanbul-middleware",
   "description": "Connect middleware for Istanbul to handle server-side as well as browser coverage use-cases for node apps",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/ravitej5226/babel7-istanbul-middleware.git"
@@ -12,10 +12,10 @@
     "test": "./test/run.sh"
   },
   "dependencies": {
-    "istanbul": "0.4.x",
-    "express": "4.x",
+    "archiver": "0.14.x",
+    "babel7-istanbul": "^0.9.1",
     "body-parser": "~1.12.3",
-    "archiver": "0.14.x"
+    "express": "4.x"
   },
   "devDependencies": {
     "mkdirp": "*",
